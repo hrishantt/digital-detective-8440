@@ -1,0 +1,27 @@
+=== Test Run 1: Input 13 ===
+$ python3 number_converter.py
+Enter a positive decimal integer: 13
+Decimal (Base 10):     13
+Binary (Base 2):       0b1101
+Hexadecimal (Base 16): 0xD
+
+=== Test Run 2: Input 25 ===
+$ python3 number_converter.py
+Enter a positive decimal integer: 25
+Decimal (Base 10):     25
+Binary (Base 2):       0b11001
+Hexadecimal (Base 16): 0x19
+
+=== Test Run 3: Input 42 ===
+$ python3 number_converter.py
+Enter a positive decimal integer: 42
+Decimal (Base 10):     42
+Binary (Base 2):       0b101010
+Hexadecimal (Base 16): 0x2A
+
+=== Test Run 4: Input 255 ===
+$ python3 number_converter.py
+Enter a positive decimal integer: 255
+Decimal (Base 10):     255
+Binary (Base 2):       0b11111111
+Hexadecimal (Base 16): 0xFF
