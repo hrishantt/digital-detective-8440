@@ -1,0 +1,21 @@
+$ pwd
+/Users/[redacted]/Desktop/digital-detective-8440/terminal-practice
+
+$ ls -l
+total 16
+-rw-r--r--  1 [redacted]  staff  101 Nov  9 02:20 practice.txt
+-rw-r--r--  1 [redacted]  staff  101 Nov  9 02:20 renamed_backup.txt
+
+$ cat practice.txt
+Mission 2 Terminal Practice: Line 1 initialized.
+Appending second line of notes without overwriting.
+
+$ ls -lah | head -n 5
+total 16
+drwxr-xr-x   4 [redacted]  staff   128B Nov  9 02:20 .
+drwxr-xr-x  17 [redacted]  staff   544B Nov  9 02:20 ..
+-rw-r--r--   1 [redacted]  staff   101B Nov  9 02:20 practice.txt
+-rw-r--r--   1 [redacted]  staff   101B Nov  9 02:20 renamed_backup.txt
+
+$ brew --version
+Homebrew 7.0.12
