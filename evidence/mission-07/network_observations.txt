@@ -1,0 +1,21 @@
+=== Task 7.2 Network Connectivity Test ===
+$ ping -c 3 example.com
+PING example.com (104.20.23.154): 56 data bytes
+64 bytes from 104.20.23.154: icmp_seq=0 ttl=58 time=5.817 ms
+64 bytes from 104.20.23.154: icmp_seq=1 ttl=58 time=5.671 ms
+64 bytes from 104.20.23.154: icmp_seq=2 ttl=58 time=18.730 ms
+
+--- example.com ping statistics ---
+3 packets transmitted, 3 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 5.671/10.073/18.730/6.122 ms
+
+=== Task 7.2 DNS Lookup Observation ===
+$ nslookup example.com
+Server:		8.8.8.8
+Address:	8.8.8.8#53
+
+Non-authoritative answer:
+Name:	example.com
+Address: 104.20.23.154
+Name:	example.com
+Address: 172.66.147.243
