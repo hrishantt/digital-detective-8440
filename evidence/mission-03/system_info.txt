@@ -1,0 +1,32 @@
+=== Operating System Information ===
+$ sw_vers
+ProductName:		macOS
+ProductVersion:		27.2
+BuildVersion:		26B123
+
+$ uname -smr
+Darwin 27.2.0 arm64
+
+=== Current User Identity ===
+$ whoami
+[redacted]
+
+$ id
+uid=501([redacted]) gid=20(staff) groups=20(staff),12(everyone),61(localaccounts)
+
+=== Storage Space Utilization ===
+$ df -h /
+Filesystem        Size    Used   Avail Capacity iused ifree %iused  Mounted on
+/dev/disk3s1s1   460Gi    13Gi   326Gi     4%    487k  3.4G    0%   /
+
+=== System Activity Snapshot (Top Summary) ===
+$ top -l 1 | head -n 10
+Processes: 751 total, 3 running, 748 sleeping, 3226 threads
+Load Avg: 2.64, 1.90, 1.70
+CPU usage: 3.9% user, 11.14% sys, 85.75% idle
+SharedLibs: 934M resident, 178M data, 158M linkedit.
+MemRegions: 193595 total, 4849M resident, 429M private, 2168M shared.
+PhysMem: 15G used (2240M wired, 1174M compressor), 196M unused.
+VM: 350T vsize, 57G framework vsize.
+Networks: packets: 8417699/9536M in, 2876667/3974M out.
+Disks: 6423065/202G read, 3760586/70G written.
