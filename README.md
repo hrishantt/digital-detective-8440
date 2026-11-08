@@ -38,5 +38,13 @@ Each mission was completed sequentially, documented in its dedicated folder usin
 
 ---
 
+## My Learning
+Through the Digital Detective investigations completed so far, key computational insights include:
+1. **Hardware-Software Abstraction:** The IPOS model demonstrates how low-level physical keystrokes and electronic interrupts are handled by the OS kernel, mediated through memory buffers in RAM, and persisted to non-volatile SSD storage blocks.
+2. **Terminal Control and Composability:** Command-line operations and Unix pipelines (`|`) provide a direct mechanism to query system metrics, inspect processes, and process data streams efficiently in memory without intermediate files.
+3. **Data Uniformity Across Systems:** Underneath programming languages and character encodings, all data and instructions are fundamentally stored as binary bits (0s and 1s), efficiently expressed in hexadecimal for human inspection and translated seamlessly by compilers and interpreters.
+
+---
+
 ## Privacy & Redaction Policy
 In accordance with assignment guidelines, sensitive personal identification (e.g., local home usernames, hardware MAC addresses, Wi-Fi SSIDs, private IP addresses, and authentication tokens) has been strictly sanitized and denoted as `[redacted]` throughout all documentation, logs, and command outputs.
