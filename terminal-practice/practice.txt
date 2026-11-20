@@ -1,0 +1,2 @@
+mission 2 terminal practice: line 1 initialized
+appending second line of notes without overwriting
