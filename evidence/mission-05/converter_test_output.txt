@@ -1,0 +1,19 @@
+=== test run 1: input 13 ===
+$ python3 number_converter.py
+enter a number: 13
+0b1101 0xd
+
+=== test run 2: input 25 ===
+$ python3 number_converter.py
+enter a number: 25
+0b11001 0x19
+
+=== test run 3: input 42 ===
+$ python3 number_converter.py
+enter a number: 42
+0b101010 0x2a
+
+=== test run 4: input 255 ===
+$ python3 number_converter.py
+enter a number: 255
+0b11111111 0xff
