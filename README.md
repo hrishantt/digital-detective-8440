@@ -33,3 +33,8 @@ each mission was done in order and documented in its own folder with a `README.m
 
 ## 3. privacy note
 personal details like computer username, private IPs, and device names are replaced with `[redacted]` in all outputs
+
+## 4. summary of what i learned
+- **IPOS and hardware:** how input (keyboard) goes through processing (CPU/RAM), shows as output (screen), and saves to storage (SSD)
+- **terminal commands:** using `pwd`, `ls`, `mkdir`, `cp`, `mv`, and pipes to manage files easily
+- **operating system:** how the OS manages RAM, CPU, running apps (processes), and file permissions
